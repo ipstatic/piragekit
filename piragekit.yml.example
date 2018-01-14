@@ -1,0 +1,11 @@
+homekit:
+  pin: 03145154
+  storage_path: /var/tmp/piragekit
+
+doors:
+  - name: "Subaru"
+    manufacturer: "Genie"
+    model: "Genie"
+    top_gpio: 5
+    bottom_gpio: 6
+    relay_gpio: 4
