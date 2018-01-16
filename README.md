@@ -18,6 +18,11 @@ laying around, I figured adding a few reed switches and relays would not hurt.
 
 ## Building
 
+This project uses [dep](https://github.com/golang/dep) for dependency management.
+You will need that installed before you can build.
+
+    $ clone this repo
+    $ dep ensure
     $ VERSION=sem.version.number make
 
 ## Setup
